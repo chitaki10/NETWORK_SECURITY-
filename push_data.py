@@ -7,7 +7,7 @@ from pymongo import MongoClient
 import certifi
 
 # Custom imports
-from networksecurity.exception.execption import NetworkSecurityException
+from networksecurity.exception.exception import NetworkSecurityException
 from networksecurity.logging import logger
 
 # Load environment variables
