@@ -10,7 +10,7 @@ import pymongo
 from typing import List
 from sklearn.model_selection import train_test_split
 from dotenv import load_dotenv
-
+from networksecurity.utils.main_utils.utils import read_yaml_file
 load_dotenv()
 MONGO_DB_URL = os.getenv("MONGO_DB_URL")
 
